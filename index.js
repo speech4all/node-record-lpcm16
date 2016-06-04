@@ -18,7 +18,7 @@ exports.start = function (options) {
     compress   : false,
     threshold  : 0.5,
     verbose    : false,
-    exitOnSilence: 3.0
+    exitOnSilence: '3.0'
   };
 
   options = _.extend(defaults, options);

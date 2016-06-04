@@ -38,7 +38,7 @@ This module however, requires you to install [SoX](http://sox.sourceforge.net).
 sampleRate    : 16000, // audio sample rate
 threshold     : 0.5,   // silence threshold
 verbose       : false  // log info to the console
-exitOnSilence : 3.0    // seconds of silence before ending
+exitOnSilence : '3.0'    // seconds of silence before ending (string)
 ```
 
 ## Usage
